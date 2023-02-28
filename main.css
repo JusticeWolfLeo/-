@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+h3 {
+    color: blueviolet;
+    font-size: x-large;
+}
+body {
+    background-color: burlywood;
+}
+ul {
+    color: red;
+}
+ol li p {
+    color: rgb(41, 6, 107);
+}
+.xy {
+    color: chartreuse;
+    font-size: xx-large;
+    font-style: inherit;
+    margin-bottom: 50px;
+}
+img {
+    border: 30px,30px,30px,30px, red;
+}
+.xy:hover {
+    color: chocolate;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  font-family: 'Fjalla One', sans-serif;
+  background: linear-gradient(to bottom, #405166 0%,#656f6f 100%);
+}
+
+.container{
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 225px;
+}
+
+.button{
+  float: left;
+  position: relative;
+  bottom: -65px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-10deg);
+  color: #e55643 ;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+
+.title{
+  display: block;
+  float: left;
+  position: relative;
+}
+
+.title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
